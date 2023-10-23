@@ -1,9 +1,6 @@
-<style type="text/css">
-  body{
-  font-size: 12pt;
-  font-family: 'Monaco', 'Courier New', monospace;
-}
-</style>
+# Analyzing Jeopardy Questions
+### - Vinay Joshy
+
 
 ## Background
 
@@ -77,13 +74,13 @@ glimpse(jeopardy)   # Print a concise summary
 
     ## Rows: 19,999
     ## Columns: 7
-    ## $ `Show Number` [3m[38;5;246m<dbl>[39m[23m 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680…
-    ## $ `Air Date`    [3m[38;5;246m<date>[39m[23m 2004-12-31, 2004-12-31, 2004-12-31, 2004-12-31, 2004-12-31, 2004-12-31, 200…
-    ## $ Round         [3m[38;5;246m<chr>[39m[23m "Jeopardy!", "Jeopardy!", "Jeopardy!", "Jeopardy!", "Jeopardy!", "Jeopardy!"…
-    ## $ Category      [3m[38;5;246m<chr>[39m[23m "HISTORY", "ESPN's TOP 10 ALL-TIME ATHLETES", "EVERYBODY TALKS ABOUT IT...",…
-    ## $ Value         [3m[38;5;246m<chr>[39m[23m "$200", "$200", "$200", "$200", "$200", "$200", "$400", "$400", "$400", "$40…
-    ## $ Question      [3m[38;5;246m<chr>[39m[23m "For the last 8 years of his life, Galileo was under house arrest for espous…
-    ## $ Answer        [3m[38;5;246m<chr>[39m[23m "Copernicus", "Jim Thorpe", "Arizona", "McDonald's", "John Adams", "the ant"…
+    ## $ `Show Number` [3m[38;5;246m<dbl>[39m[23m 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680, 4680…
+    ## $ `Air Date`    [3m[38;5;246m<date>[39m[23m 2004-12-31, 2004-12-31, 2004-12-31, 2004-12-31, 2004-12-31, 2004-12-31, 200…
+    ## $ Round         [3m[38;5;246m<chr>[39m[23m "Jeopardy!", "Jeopardy!", "Jeopardy!", "Jeopardy!", "Jeopardy!", "Jeopardy!"…
+    ## $ Category      [3m[38;5;246m<chr>[39m[23m "HISTORY", "ESPN's TOP 10 ALL-TIME ATHLETES", "EVERYBODY TALKS ABOUT IT...",…
+    ## $ Value         [3m[38;5;246m<chr>[39m[23m "$200", "$200", "$200", "$200", "$200", "$200", "$400", "$400", "$400", "$40…
+    ## $ Question      [3m[38;5;246m<chr>[39m[23m "For the last 8 years of his life, Galileo was under house arrest for espous…
+    ## $ Answer        [3m[38;5;246m<chr>[39m[23m "Copernicus", "Jim Thorpe", "Arizona", "McDonald's", "John Adams", "the ant"…
 
 ``` r
 View(jeopardy)      # View the data in a tabular format
